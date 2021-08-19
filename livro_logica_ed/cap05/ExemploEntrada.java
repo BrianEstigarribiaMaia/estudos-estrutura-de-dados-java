@@ -11,7 +11,7 @@ public class ExemploEntrada {
 		try {
 			System.out.println("Qual seu nome ?");
 			nome = entrada.readLine();
-			System.out.println("Seu nome é: "+nome);
+			System.out.println("Seu nome Ã©: "+nome);
 		} catch (Exception e) {
 			System.out.println("Ocorreu um erro durante a leitura!");
 		}

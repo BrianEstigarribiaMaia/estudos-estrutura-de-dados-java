@@ -1,7 +1,7 @@
 package br.com.cap06;
 
 /*
- * ler os numeros digitados pelo usu·rio e mostrar a mÈdia
+ * ler os numeros digitados pelo usu√°rio e mostrar a m√©dia
  */
 
 import java.io.BufferedReader;
@@ -23,7 +23,7 @@ public class ExVetor {
 			}
 			
 			float media = soma / vetor.length;
-			System.out.println("A mÈdia È = " +media);
+			System.out.println("A m√©dia √© = " +media);
 		} catch (Exception e) {
 			System.out.println("Ocorreu um erro durante a leitura!");
 		}

@@ -8,12 +8,12 @@ public class ExemploMenu {
 		BufferedReader ler = new BufferedReader(new InputStreamReader(System.in));
 
 		try {
-			System.out.println("1 : AdiÁ„o");
-			System.out.println("2 : SubtraÁ„o");
-			System.out.println("3 : MultiplicaÁ„o");
-			System.out.println("4 : Divis„o");
+			System.out.println("1 : Adi√ß√£o");
+			System.out.println("2 : Subtra√ß√£o");
+			System.out.println("3 : Multiplica√ß√£o");
+			System.out.println("4 : Divis√£o");
 
-			System.out.println("Qual a opÁ„o desejada ?");
+			System.out.println("Qual a op√ß√£o desejada ?");
 			int op = Integer.parseInt(ler.readLine());
 
 			switch (op) {
@@ -49,7 +49,7 @@ public class ExemploMenu {
 			float numero2 = Float.parseFloat(ler.readLine());
 			
 			float resultado = numero1 / numero2;
-			System.out.println("Divis„o = "+resultado);
+			System.out.println("Divis√£o = "+resultado);
 		} catch (Exception e) {
 			System.out.println("Ocorreu um erro na leitura");
 		}
@@ -66,7 +66,7 @@ public class ExemploMenu {
 			float numero2 = Float.parseFloat(ler.readLine());
 			
 			float resultado = numero1 * numero2;
-			System.out.println("MultiplicaÁ„o = "+resultado);
+			System.out.println("Multiplica√ß√£o = "+resultado);
 		} catch (Exception e) {
 			System.out.println("Ocorreu um erro na leitura");
 		}
@@ -83,7 +83,7 @@ public class ExemploMenu {
 			 float numero2 = Float.parseFloat(ler.readLine());
 
 			 float resultado = numero1 - numero2;
-			 System.out.println("SubtraÁ„o = "+resultado);
+			 System.out.println("Subtra√ß√£o = "+resultado);
 		 } catch (Exception e) {
 			 System.out.println("Ocorreu um erro na leitura");
 		 }
